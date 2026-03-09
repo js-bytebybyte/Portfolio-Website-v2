@@ -56,23 +56,35 @@ export const PROJECTS: Project[] = [
 
 export const SKILLS: SkillCategory[] = [
   {
-    title: "Development Core",
-    skills: ["Angular", "TypeScript", "JavaScript", "C / C++", "Python APIs", "PrimeNG"]
+    title: "Programming Languages",
+    skills: ["JS/TypeScript", "C", "C++"]
   },
   {
-    title: "Web & Systems",
-    skills: ["REST APIs", "OpenAPI / Swagger", "TailwindCSS", "Docker", "Linux / Bash", "Liquid (Shopify)"]
+    title: "Frontend & Web",
+    skills: ["Angular", "PrimeNG", "TailwindCSS", "Sass (SCSS)", "HTML", "CSS"]
   },
   {
-    title: "Finance Refinement",
-    skills: ["Variance Analysis", "Budgeting & Forecasting", "Monthly Reporting", "Stakeholder Management", "Audit Readiness"]
+    title: "Backend & APIs",
+    skills: ["REST APIs", "OpenAPI / Swagger", "Node.js"]
+  },
+  {
+    title: "DevOps & Systems",
+    skills: ["Docker", "Linux", "Bash", "Vim", "Git / GitHub"]
+  },
+  {
+    title: "E-commerce & Scripting",
+    skills: ["Shopify (Liquid)", "Metafields"]
+  },
+  {
+    title: "AI & Collaboration",
+    skills: ["GitHub Copilot", "Prompt Engineering", "Confluence"]
   }
 ];
 
 export const ABOUT_TEXT = [
   "I am a career switcher from Corporate Finance (+6 years) to Web Development, currently refining my skills as a Junior Web Developer. My experience at Proximus involves building data dashboards and internal tools using Angular and Python APIs.",
   "My background in finance taught me the importance of structured problem-solving and translating complex data into clear, actionable insights—skills I now apply directly to software engineering. I am a student at 42 Belgium, where peer-to-peer learning and project-based curriculum are fundamental.",
-  "When I am not in the 'severed' state of deep work, I enjoy sports like Pilates and Running at Animo, reading motivational literature, and following series like Severance and The 3 Body Problem."
+  "When I am not in the 'severed' state of deep work, I enjoy dancing and sports like mat pilates and running, reading, and watching series like Severance and The 3 Body Problem. This website was inspired by Severance and built using Angular and TailwindCSS."
 ];
 
 export const SOCIALS: SocialLink[] = [

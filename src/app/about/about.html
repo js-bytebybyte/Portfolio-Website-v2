@@ -8,15 +8,106 @@
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
           <div class="md:col-span-8 space-y-8 bg-white/50 p-8 rounded border border-white shadow-sm backdrop-blur-sm">
             <p *ngFor="let p of paragraphs" class="text-lg text-lumon-800 font-medium leading-relaxed">{{p}}</p>
-            <div class="grid grid-cols-2 gap-4 pt-6">
+            <div class="space-y-6 pt-6">
                 <div class="p-4 border border-lumon-100 bg-lumon-50/50 rounded">
-                    <span class="block font-mono text-[10px] uppercase text-lumon-400 font-bold mb-1">Education</span>
-                    <span class="font-bold text-lumon-900 text-sm">42 Belgium / K.U. Leuven</span>
+                    <span class="block font-mono text-[10px] uppercase text-lumon-400 font-bold mb-4">Education</span>
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between items-start mb-1">
+                                <span class="font-bold text-lumon-900 text-sm">Software Engineer</span>
+                                <span class="text-xs text-lumon-600 font-mono">2023 – 2025</span>
+                            </div>
+                            <span class="text-xs font-medium text-lumon-700 block mb-2">42 Belgium | Brussels</span>
+                            <p class="text-xs text-lumon-600 leading-relaxed">Pioneering, tuition-free coding school founded on the principles of peer-to-peer learning and project-based curriculum.</p>
+                        </div>
+                        <div class="pt-3 border-t border-lumon-100">
+                            <div class="flex justify-between items-start mb-1">
+                                <span class="font-bold text-lumon-900 text-sm">Bachelor & Master of Business Economics</span>
+                                <span class="text-xs text-lumon-600 font-mono">2011 – 2016</span>
+                            </div>
+                            <span class="text-xs font-medium text-lumon-700 block mb-2">K.U. Leuven | Leuven</span>
+                            <p class="text-xs text-lumon-600 leading-relaxed">Master with major and minor in Finance & Accounting - Cum Laude. Bachelor with major in Finance & Marketing.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="p-4 border border-lumon-100 bg-lumon-50/50 rounded">
                     <span class="block font-mono text-[10px] uppercase text-lumon-400 font-bold mb-1">Certifications</span>
                     <span class="font-bold text-lumon-900 text-sm">AWS Cloud Practitioner</span>
                 </div>
+            </div>
+            <div class="pt-8 border-t border-lumon-100">
+              <h3 class="font-display text-2xl font-bold text-lumon-900 uppercase tracking-tight mb-8">Professional Timeline</h3>
+              <div class="space-y-12">
+                <!-- Development Experience -->
+                <div>
+                  <h4 class="font-mono text-xs uppercase text-lumon-400 font-bold mb-6 pb-3 border-b border-lumon-200">Development Experience (1y)</h4>
+                  <div class="space-y-6 relative pl-6 border-l-2 border-lumon-300">
+                    <!-- Proximus -->
+                    <div class="relative">
+                      <div class="absolute -left-4 top-1 w-5 h-5 rounded-full bg-lumon-400 border-4 border-white"></div>
+                      <div class="flex justify-between items-start mb-1">
+                        <span class="font-bold text-lumon-900 text-sm">Web Application Developer</span>
+                        <span class="text-xs text-lumon-600 font-mono">09/2025 – 02/2026</span>
+                      </div>
+                      <span class="text-xs font-medium text-lumon-700 block mb-3">Proximus Group | Brussels</span>
+                      <ul class="text-xs text-lumon-600 space-y-1 leading-relaxed">
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Migrating an internal Data Quality Portal from Python Dash to a decoupled architecture: Angular frontend + API backend, used by internal data teams (200+ users).</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Building an Angular + PrimeNG frontend for data quality analysis.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Designing and maintaining the OpenAPI specification (API-first) and integrating with OpenAPI-generated REST services.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Producing technical documentation to support maintainability, onboarding, and handover (Confluence).</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Using GitHub Copilot and effective prompting to accelerate development and iteration cycles.</span></li>
+                      </ul>
+                    </div>
+                    <!-- Fantail -->
+                    <div class="relative">
+                      <div class="absolute -left-4 top-1 w-5 h-5 rounded-full bg-lumon-400 border-4 border-white"></div>
+                      <div class="flex justify-between items-start mb-1">
+                        <span class="font-bold text-lumon-900 text-sm">Shopify Web Developer</span>
+                        <span class="text-xs text-lumon-600 font-mono">02/2025 – 05/2025</span>
+                      </div>
+                      <span class="text-xs font-medium text-lumon-700 block mb-3">Fantail | Vadigran Group | Brussels</span>
+                      <ul class="text-xs text-lumon-600 space-y-1 leading-relaxed">
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Redesigned Fantail's Shopify website for premium dog beds and cat furniture.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Implemented a fully custom Shopify theme using Liquid and Tailwindcss.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Reduced product catalog by 55% through smart use of variants and metafields.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Enhanced UX with custom color swatches, icon-based mobile nav, and filters.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Improved SEO structure and page speed across devices.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Collaborated with marketing to align visual design and product presentation.</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Finance Experience -->
+                <div>
+                  <h4 class="font-mono text-xs uppercase text-lumon-400 font-bold mb-6 pb-3 border-b border-lumon-200">Finance Experience (6y)</h4>
+                  <div class="space-y-6 relative pl-6 border-l-2 border-lumon-300">
+                    <!-- ECDPM -->
+                    <div class="relative">
+                      <div class="absolute -left-4 top-1 w-5 h-5 rounded-full bg-lumon-400 border-4 border-white"></div>
+                      <div class="flex justify-between items-start mb-1">
+                        <span class="font-bold text-lumon-900 text-sm">Corporate Finance Officer</span>
+                        <span class="text-xs text-lumon-600 font-mono">2020 – 2023</span>
+                      </div>
+                      <span class="text-xs font-medium text-lumon-700 block mb-3">ECDPM | Brussels</span>
+                      <ul class="text-xs text-lumon-600 space-y-1 leading-relaxed">
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Owned monthly reporting, budgeting/forecasting cycles, and variance analysis for multiple cost centers/projects.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Partnered with stakeholders to improve financial visibility and decision-making.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Improved reporting processes (automation/standardization) to reduce manual work and increase accuracy.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Ensured compliance and audit readiness (donors/internal controls).</span></li>
+                      </ul>
+                    </div>
+                    <!-- Publicis & Deloitte -->
+                    <div class="relative">
+                      <div class="absolute -left-4 top-1 w-5 h-5 rounded-full bg-lumon-400 border-4 border-white"></div>
+                      <div class="flex justify-between items-start mb-1">
+                        <span class="font-bold text-lumon-900 text-sm">FP&A / Controlling</span>
+                        <span class="text-xs text-lumon-600 font-mono">2016 – 2020</span>
+                      </div>
+                      <span class="text-xs font-medium text-lumon-700 block mb-3">Publicis Groupe & Deloitte | Brussels</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="md:col-span-4 bg-lumon-800 p-6 rounded text-white shadow-lg">

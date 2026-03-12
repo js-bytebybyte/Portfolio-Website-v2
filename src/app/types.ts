@@ -22,3 +22,11 @@ export interface SocialLink {
   url: string;
   icon: any;
 }
+
+export interface ExperienceEvent{
+  id: string;
+  date: string;
+  role: string;
+  companyName: string;
+  tasks: string;
+}

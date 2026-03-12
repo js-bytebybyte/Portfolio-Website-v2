@@ -1,4 +1,4 @@
-import { Project, SkillCategory, SocialLink } from './types';
+import { Project, SkillCategory, SocialLink, ExperienceEvent } from './types';
 // import { Github, Twitter, Linkedin } from 'lucide';
 
 export const NAV_LINKS = [
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
 export const SKILLS: SkillCategory[] = [
   {
     title: "Programming Languages",
-    skills: ["JS/TypeScript", "C", "C++"]
+    skills: ["JS/TypeScript", "C", "C++", "Python"]
   },
   {
     title: "Frontend & Web",
@@ -98,4 +98,35 @@ export const SOCIALS: SocialLink[] = [
     url: 'https://linkedin.com/in/jolandesteenput',
     icon: 'linkedin',
   }
+];
+
+export const EXPERIENCE: ExperienceEvent[] = [
+  {
+    id: '1',
+    date: '2016-2020',
+    role: 'FP&A / Controlling',
+    companyName: 'Publicis Groupe & Deloitte',
+    tasks: 'Controlling & Bugeting'
+  },
+  {
+    id: '2',
+    date: '2020 – 2023',
+    role: 'Corporate Finance Officer',
+    companyName: 'ECDPM | Brussels',
+    tasks: 'Monthly reporting, budgeting/forecasting cycles, and variance analysis for multiple cost centers/projects.'
+  },
+  {
+    id: '3',
+    date: '04/2023-07/2025',
+    role: 'Transition To Software Developer',
+    companyName: '19/42 Belgium',
+    tasks: 'Project based peer-to-peer learning'
+  },
+  {
+    id: '4',
+    date: '02/2025-05/2025',
+    role: 'Shopify Web Developer',
+    companyName: 'Fantail part of Vadigran Group | Brussels',
+    tasks: "Redesigned Fantail's Shopify website for premium dog beds and cat furniture."
+  },
 ];

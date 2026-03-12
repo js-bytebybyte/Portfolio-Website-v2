@@ -84,9 +84,25 @@
 
               <!-- Development Experience -->
               <p-tabpanel value="2">
+
+                <p-timeline [value]="events" align="alternate" class="mb-5">
+                    <ng-template pTemplate="marker"let-event>
+                        <span class="flex w-8 h-8 items-center justify-center text-white rounded-full shadow-sm">
+                            <i [class]="event.id"></i>
+                        </span>
+                    </ng-template>
+                    <ng-template pTemplate="content" let-event>
+                        <p-card [header]="event.role" [subheader]="event.date">
+                            <img *ngIf="event.image" [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + event.image" [alt]="event.companyName" width="200" class="shadow" />
+                            <p>
+                              {{event.tasks}}
+                            </p>
+                            <p-button label="Read more" [text]="true" />
+                        </p-card>
+                    </ng-template>
+                </p-timeline>
                 <div class="space-y-5 p-4 border border-lumon-100 bg-lumon-50/50 rounded">
                   <div class="space-y-12">
-                    <!-- Development Experience -->
                     <div class="space-y-5 p-4 border border-lumon-100 bg-lumon-50/50 rounded">
                       <div class="space-y-6 relative pl-6 border-lumon-300">
                         <!-- Proximus -->
@@ -141,7 +157,7 @@
                       </div>
                       <span class="text-xs font-medium text-lumon-700 block mb-3">ECDPM | Brussels</span>
                       <ul class="text-xs text-lumon-600 space-y-1 leading-relaxed">
-                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Owned monthly reporting, budgeting/forecasting cycles, and variance analysis for multiple cost centers/projects.</span></li>
+                        <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Monthly reporting, budgeting/forecasting cycles, and variance analysis for multiple cost centers/projects.</span></li>
                         <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Partnered with stakeholders to improve financial visibility and decision-making.</span></li>
                         <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Improved reporting processes (automation/standardization) to reduce manual work and increase accuracy.</span></li>
                         <li class="flex gap-2"><span class="text-lumon-400">•</span> <span>Ensured compliance and audit readiness (donors/internal controls).</span></li>

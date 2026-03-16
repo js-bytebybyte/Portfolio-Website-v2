@@ -11,7 +11,7 @@ export const NAV_LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hello, I'm Jolande.",
   headline: "Turning complex data into usable digital products.",
-  subtext: "Junior Web Developer (Angular) with a 6-year background in Corporate Finance. Specializing in data dashboards, internal tools, and structured problem solving.",
+  subtext: "Software Developer focused on Angular and modern web applications, with a + 6-year background in Corporate Finance. I build data-driven dashboards, internal tools, and structured systems that turn complex information into usable softwaree",
 };
 
 export const PROJECTS: Project[] = [
@@ -24,9 +24,9 @@ export const PROJECTS: Project[] = [
     solution: 'Implemented a scalable layout pattern with an emphasis on clean UX and real-world dashboard workflows.',
     impact: 'Ready-to-deploy architecture for high-density data environments.',
     stack: ['Angular', 'TypeScript', 'TailwindCSS'],
-    image: 'https://picsum.photos/800/600?random=1',
+    image: 'images/insightsboard-main-page.png',
     link: '#',
-    github: 'https://github.com/js-bytebybyte'
+    github: 'https://github.com/js-bytebybyte/insightboard-dashboard'
   },
   {
     id: 'MDR-002',
@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
     problem: 'Managing concurrent state and low-latency communication in a browser-based multiplayer environment.',
     solution: 'Developed a robust client/server coordination system using TypeScript and WebSockets for real-time sync.',
     impact: 'Successfully implemented full tournament flow, match logic, and player progression under concurrency.',
-    stack: ['TypeScript', 'WebSockets', 'Node.js', 'PostgreSQL'],
+    stack: ['TypeScript', 'WebSockets', 'Node.js', 'SQLite', 'TailwindCSS'],
     image: 'images/ft_transcendence-pong-game-start.png',
     github: 'https://github.com/js-bytebybyte/ft_transcendence'
   },
@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
     solution: 'Implemented a select/poll based event loop to handle multiple connections efficiently close to the protocol level.',
     impact: 'Strengthened deep understanding of networking fundamentals and server-side architecture.',
     stack: ['C++98', 'Networking', 'Systems Programming'],
-    image: 'https://picsum.photos/800/600?random=3',
+    image: 'images/webserv-terminal.png',
     github: 'https://github.com/js-bytebybyte/webserv'
   }
 ];

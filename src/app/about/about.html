@@ -6,8 +6,6 @@
           <div class="h-px bg-lumon-700/70 flex-1"></div>
         </div>
 
-        <!-- Download CV Button -->
-        <p-button label="Download CV" icon="pi pi-download" class="p-button-outlined"></p-button>
 
         <!-- MAIN BIO -->
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
@@ -35,7 +33,12 @@
           </div>
           <div class="md:col-span-8 space-y-8 bg-lumon-900/60 p-8 rounded border border-lumon-700/70 shadow-sm backdrop-blur-sm">
             <p *ngFor="let p of paragraphs" class="text-sm text-lumon-300 font-medium leading-relaxed">{{p}}</p>
+            <!-- Download CV Button -->
+             <div class=mt-2>
+               <p-button label="Download CV" icon="pi pi-download" class="p-button-outlined" (onClick)="downloadCv()"></p-button>
+             </div>
           </div>
+
 
           <!-- More Info On Career & Skills -->
           <div class="md:col-span-12 bg-lumon-900/60 p-8 rounded border border-lumon-700/70 shadow-sm backdrop-blur-sm">

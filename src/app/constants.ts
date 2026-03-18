@@ -2,8 +2,8 @@ import { Project, SkillCategory, SocialLink, ExperienceEvent } from './types';
 // import { Github, Twitter, Linkedin } from 'lucide';
 
 export const NAV_LINKS = [
-  { label: 'Projects', href: '#projects' },
   { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -23,6 +23,7 @@ export const PROJECTS: Project[] = [
     problem: 'Data teams often struggle with inconsistent UI patterns for complex internal metrics.',
     solution: 'Implemented a scalable layout pattern with an emphasis on clean UX and real-world dashboard workflows.',
     impact: 'Ready-to-deploy architecture for high-density data environments.',
+    level: '60',
     stack: ['Angular', 'TypeScript', 'TailwindCSS'],
     image: 'images/insightsboard-main-page.png',
     link: '#',
@@ -36,6 +37,7 @@ export const PROJECTS: Project[] = [
     problem: 'Managing concurrent state and low-latency communication in a browser-based multiplayer environment.',
     solution: 'Developed a robust client/server coordination system using TypeScript and WebSockets for real-time sync.',
     impact: 'Successfully implemented full tournament flow, match logic, and player progression under concurrency.',
+    level: '100',
     stack: ['TypeScript', 'WebSockets', 'Node.js', 'SQLite', 'TailwindCSS'],
     image: 'images/ft_transcendence-pong-game-start.png',
     github: 'https://github.com/js-bytebybyte/ft_transcendence'
@@ -48,6 +50,7 @@ export const PROJECTS: Project[] = [
     problem: 'Understanding low-level networking and system I/O without high-level library abstractions.',
     solution: 'Implemented a select/poll based event loop to handle multiple connections efficiently close to the protocol level.',
     impact: 'Strengthened deep understanding of networking fundamentals and server-side architecture.',
+    level: '100',
     stack: ['C++98', 'Networking', 'Systems Programming'],
     image: 'images/webserv-terminal.png',
     github: 'https://github.com/js-bytebybyte/webserv'
@@ -111,7 +114,7 @@ export const SKILLS: SkillCategory[] = [
 ];
 
 export const ABOUT_TEXT = [
-  "Hi ! I am a career switcher from Corporate Finance (7 years) to Software Development, currently refining my skills as a Web Developer. My experience at Proximus involves building data dashboards and internal tools using Angular and Python APIs.",
+  "Hi ! I am a career switcher from Corporate Finance (6+ years) to Software Development, currently refining my skills as a Web Developer. My experience at Proximus involves building data dashboards and internal tools using Angular and Python APIs.",
   "My background in finance taught me the importance of structured problem-solving and translating complex data into clear, actionable insights—skills I now apply directly to software engineering. I am a student at 42 Belgium, where peer-to-peer learning and project-based curriculum are fundamental.",
   "When I am not in the 'severed' state of deep work, I enjoy dancing and sports like mat pilates and running, reading, and watching series like Severance and The 3 Body Problem. This website was inspired by Severance and built using Angular and TailwindCSS."
 ];

@@ -85,14 +85,15 @@
             </div>
           </div>
 
+          <!-- Refinement level -->
           <div class="border-t border-lumon-600/70 bg-lumon-900/65 p-3">
              <div class="flex justify-between items-center mb-1">
                <span class="font-mono text-[10px] font-bold text-lumon-300 uppercase">Refinement Level</span>
-               <span class="font-mono text-[10px] font-bold text-lumon-300">{{progressValues[i]}}%</span>
+               <span class="font-mono text-[10px] font-bold text-lumon-300">{{project.level}}%</span>
              </div>
              <div class="h-5 border border-lumon-600/70 p-0.5 relative overflow-hidden">
                 <div class="h-full bg-lumon-500/80 transition-all duration-1000" 
-                     [style.width.%]="progressValues[i]"></div>
+                     [style.width.%]="project.level"></div>
                 <div class="absolute inset-0 monitor-scanline opacity-50"></div>
              </div>
           </div>

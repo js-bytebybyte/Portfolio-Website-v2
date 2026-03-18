@@ -1,4 +1,4 @@
-:host ::ng-deep .p-button {
+::ng-deep .p-button {
     background: rgba(37, 53, 70, 0.9);
     border: 1px solid rgba(100, 141, 174, 0.6);
     color: #dbe4ed;
@@ -9,21 +9,34 @@
     letter-spacing: 0.08em;
 }
 
-:host ::ng-deep .p-button:hover {
+.p-button:hover {
     background: rgba(52, 82, 110, 0.9);
     border-color: rgba(143, 170, 191, 0.75);
 }
 
-:host ::ng-deep .p-tablist {
-    background: rgba(21, 30, 41, 0.95);
+.p-tablist {
+    background: rgb(37 53 70 / var(--tw-bg-opacity, 1));
     border: 1px solid rgba(70, 109, 143, 0.45);
+    border-width: 0px;
+
 }
 
-:host ::ng-deep .p-tab {
+.p-tab {
     color: #8faabf;
+    border-width: 0px;
 }
 
-:host ::ng-deep .p-tab-active {
-    background: rgba(52, 82, 110, 0.45);
+.p-tab-active {
+    /* background: rgba(52, 82, 110, 0.45); */
     color: #f0f4f8;
+    
+}
+
+::ng-deep .p-tablist-tab-list {
+    /* border-color: rgb(42 65 87 / 0.7); */
+}
+
+.p-tabpanel {
+    background: rgb(37 53 70 );
+
 }

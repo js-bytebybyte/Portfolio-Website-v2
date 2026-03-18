@@ -6,6 +6,7 @@ export interface Project {
   problem: string;
   solution: string;
   impact: string;
+  level: string;
   stack: string[];
   link?: string;
   github?: string;

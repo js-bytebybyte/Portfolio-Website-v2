@@ -11,7 +11,7 @@ export const NAV_LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hello, I'm Jolande.",
   headline: "Turning complex data into usable digital products.",
-  subtext: "Software Developer focused on Angular and modern web applications, with a + 6-year background in Corporate Finance. I build data-driven dashboards, internal tools, and structured systems that turn complex information into usable softwaree",
+  subtext: "Software Developer with a 6+ year background in Corporate Finance, now building data-driven applications and internal tools using Angular and API-based systems.",
 };
 
 export const PROJECTS: Project[] = [
@@ -133,9 +133,9 @@ export const EXPERIENCE: ExperienceEvent[] = [
   {
     id: '1',
     date: '2016-2020',
-    role: 'FP&A / Controlling',
-    companyName: 'Publicis Groupe & Deloitte',
-    tasks: 'Controlling & Bugeting'
+    role: 'FP&A / Controlling roles',
+    companyName: 'Publicis Groupe & Deloitte | Brussels',
+    tasks: 'Controlling, budgeting, and financial planning support across business units.'
   },
   {
     id: '2',
@@ -146,16 +146,23 @@ export const EXPERIENCE: ExperienceEvent[] = [
   },
   {
     id: '3',
-    date: '04/2023-07/2025',
-    role: 'Transition To Software Developer',
-    companyName: '19/42 Belgium',
-    tasks: 'Project based peer-to-peer learning'
+    date: '2023 – 2025',
+    role: 'Software Engineer Student',
+    companyName: '42 Belgium | Brussels',
+    tasks: 'Project-based, peer-to-peer learning focused on software engineering fundamentals and fullstack development.'
   },
   {
     id: '4',
-    date: '02/2025-05/2025',
-    role: 'Shopify Web Developer',
-    companyName: 'Fantail part of Vadigran Group | Brussels',
+    date: '02/2025 – 05/2025',
+    role: 'Shopify Web Developer | Internship',
+    companyName: 'Fantail | Vadigran Group | Brussels',
     tasks: "Redesigned Fantail's Shopify website for premium dog beds and cat furniture."
+  },
+  {
+    id: '5',
+    date: '09/2025 – 02/2026',
+    role: 'Web Application Developer | Internship',
+    companyName: 'Proximus Group | Brussels',
+    tasks: 'Migrating an internal Data Quality Portal to an Angular frontend with API integration for internal data teams.'
   },
 ];

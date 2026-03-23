@@ -24,7 +24,7 @@ export class About {
 
   events = EXPERIENCE;
 
-  // function to download the cv - pdf
+  // function to download the cv - pdf --> DEPRECATED
   downloadCv(): void {
     
     // create anchor element

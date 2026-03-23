@@ -26,7 +26,6 @@ export const PROJECTS: Project[] = [
     level: '60',
     stack: ['Angular', 'TypeScript', 'TailwindCSS'],
     image: 'images/insightsboard-main-page.png',
-    link: '#',
     github: 'https://github.com/js-bytebybyte/insightboard-dashboard'
   },
   {
